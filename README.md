@@ -19,8 +19,8 @@ This project implements a smart keypad notification system using MQTT (Message Q
    - Acts as a central hub for message routing between devices.
    - Manages topics and subscriptions for the system.
 3. MQTT Subscribers:
-![subscriber!](images\subscriber.jpg "MQTT Subscribers")
-![subscriber!](images\subscriber_hw.jpg "MQTT Subscribers")
+![subscriber!](images\subscriber.jpg "MQTT Subscriber")
+![subscriber!](images\subscribers_hw.jpg "MQTT Subscribers")
    - Three ESP8266 NodeMCU boards act as subscribers, each listening to a specific topic (keypad/input).
    - Trigger actions (e.g., activate a buzzer) upon receiving messages on their subscribed topics.
    - Send acknowledgment (ACK) messages back to the publisher.
