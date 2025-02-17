@@ -5,8 +5,8 @@ Division: B
 Batch No.: B14
 Guide Name: Prof.B.K.Gudur
 Group members: 
-    Sairaj Ingale 2BL22EC410
-    Govind Hadpad 2BL22EC404
-    Biradar Vishwanath 2BL22EC401
-    Suprita Mathapati 2BL2IEC102
+    Sairaj Ingale 
+    Govind Hadpad 
+    Biradar Vishwanath 
+    Suprita Mathapati 
 Project title: IOT BASED COMMUNICATION SYSTEM FOR COLLEGE DEPARTMENT
