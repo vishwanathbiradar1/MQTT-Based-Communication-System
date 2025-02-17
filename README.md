@@ -8,19 +8,19 @@ This project implements a smart keypad notification system using MQTT (Message Q
 
 ### Components:
 1. Keypad (MQTT Publisher):
-![publisher!](images/publisher.jpg "MQTT Publisher")
-![publisher!](images/publisher_hw.jpg "MQTT Publisher")
+<img src="images/publisher.jpg" width="300" height="200">
+<img src="images/publisher_hw.jpg" width="300" height="200">
    - Reads input from a 4x4 keypad matrix.
    - Publishes pressed key values to specific MQTT topics (keypad/input) based on the pressed key (1, 2, 3, or A).
    - Includes a buzzer for acknowledgment (ACK) signal.
-2. MQTT Broker:
-![broker!](images/broker.jpg "MQTT Broker")
-![broker!](images/broker_hw.jpg "MQTT Broker")
+3. MQTT Broker:
+<img src="images/broker.jpg" width="200" height="300">
+<img src="images/broker_hw.jpg" width="300" height="200">
    - Acts as a central hub for message routing between devices.
    - Manages topics and subscriptions for the system.
-3. MQTT Subscribers:
-![subscriber!](images/subscriber.jpg "MQTT Subscriber")
-![subscriber!](images/subscribers_hw.jpg "MQTT Subscribers")
+4. MQTT Subscribers:
+<img src="images/subscriber.jpg" width="300" height="200">
+<img src="images/subscribers_hw.jpg" width="300" height="200">
    - Three ESP8266 NodeMCU boards act as subscribers, each listening to a specific topic (keypad/input).
    - Trigger actions (e.g., activate a buzzer) upon receiving messages on their subscribed topics.
    - Send acknowledgment (ACK) messages back to the publisher.
