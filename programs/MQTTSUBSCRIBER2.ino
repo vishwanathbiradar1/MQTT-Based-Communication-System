@@ -6,9 +6,9 @@
 
 int buzzerPin = D1;
 int button = D2;
-const char* ssid = "krishna";
-const char* password = "11223344";
-const char* mqtt_server = "192.168.29.227";
+const char* ssid = "ssid";
+const char* password = "password";
+const char* mqtt_server = "ip address";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
