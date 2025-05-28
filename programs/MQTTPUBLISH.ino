@@ -6,9 +6,9 @@
 //Defining keypad pins and setup
 int buzzerPin = D8;
 
-const char* ssid = "krishna";
-const char* password = "11223344";
-const char* mqtt_server = "192.168.29.227";
+const char* ssid = "ssid";
+const char* password = "password";
+const char* mqtt_server = "ip address";
 const char* topic1 = "keypad/input";
 const char* topic2 = "keypad/input";
 const char* topic3 = "keypad/input";
